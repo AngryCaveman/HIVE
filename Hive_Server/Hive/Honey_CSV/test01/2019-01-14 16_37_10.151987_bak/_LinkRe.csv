@@ -1,0 +1,20 @@
+MissionName,Url,AddTime,Statu
+test01,https://www.worldscientific.com/action/showPublications,2018-12-24 16:57:37,success
+test01,https://www.worldscientific.com/action/showPublications?pageSize=20&startPage=0,2018-12-24 16:57:39,failure
+test01,https://www.worldscientific.com/worldscibooks/10.1142/5040,2018-12-24 16:57:41,failure
+test01,https://www.worldscientific.com/worldscibooks/10.1142/7774,2018-12-24 16:57:52,failure
+test01,https://www.worldscientific.com/worldscibooks/10.1142/4426,2018-12-24 16:58:04,failure
+test01,https://www.worldscientific.com/worldscibooks/10.1142/p649,2018-12-24 16:58:24,success
+test01,https://www.worldscientific.com/worldscibooks/10.1142/6815,2018-12-24 16:58:26,success
+test01,https://www.worldscientific.com/worldscibooks/10.1142/10423,2018-12-24 16:58:33,success
+test01,https://www.worldscientific.com/worldscibooks/10.1142/1598?cookieSet=1,2018-12-24 16:58:35,failure
+test01,https://www.worldscientific.com/worldscibooks/10.1142/9603,2018-12-24 16:58:46,success
+test01,https://www.worldscientific.com/worldscibooks/10.1142/9370,2018-12-24 16:59:03,success
+test01,https://www.worldscientific.com/worldscibooks/10.1142/p649,2018-12-24 16:59:08,success
+test01,https://www.worldscientific.com/worldscibooks/10.1142/3965,2018-12-24 16:59:13,success
+test01,https://www.worldscientific.com/worldscibooks/10.1142/10051,2018-12-24 16:59:14,success
+test01,https://www.worldscientific.com/worldscibooks/10.1142/6815,2018-12-24 16:59:18,failure
+test01,https://www.worldscientific.com/worldscibooks/10.1142/4794,2018-12-24 16:59:19,failure
+test01,https://www.worldscientific.com/worldscibooks/10.1142/10423,2018-12-24 16:59:20,success
+test01,https://www.worldscientific.com/worldscibooks/10.1142/8605,2018-12-24 16:59:22,success
+test01,https://www.worldscientific.com/worldscibooks/10.1142/5876,2018-12-24 16:59:25,success

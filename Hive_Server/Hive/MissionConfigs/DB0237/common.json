@@ -1,0 +1,1 @@
+{"spider": "DB0237", "allowed_domains": ["ascelibrary.org"], "start_urls": ["https://ascelibrary.org/"], "website": "", "away": "get", "settings": {"LOG_FILE": "./Hive/LOG/DB0237.log", "FILES_STORE": ""}, "item": {"class": "DB0237", "loader": "NewItemLoader", "attrs": {"title": [{"method": "xpath", "args": ["//h1/text()"]}]}}}

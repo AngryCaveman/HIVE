@@ -1,0 +1,11 @@
+D:\HIVE\Hive\Hive\bin\x86\Debug\Hive.exe.config
+D:\HIVE\Hive\Hive\obj\x86\Debug\Hive.csprojResolveAssemblyReference.cache
+D:\HIVE\Hive\Hive\obj\x86\Debug\Hive.CookiesForm.resources
+D:\HIVE\Hive\Hive\obj\x86\Debug\Hive.MainForm.resources
+D:\HIVE\Hive\Hive\obj\x86\Debug\Hive.LoginForm.resources
+D:\HIVE\Hive\Hive\obj\x86\Debug\Hive.Properties.Resources.resources
+D:\HIVE\Hive\Hive\obj\x86\Debug\Hive.RuleForm.resources
+D:\HIVE\Hive\Hive\obj\x86\Debug\Hive.SettingForm.resources
+D:\HIVE\Hive\Hive\obj\x86\Debug\Hive.SqlForm.resources
+D:\HIVE\Hive\Hive\obj\x86\Debug\Hive.StepSettingForm.resources
+D:\HIVE\Hive\Hive\obj\x86\Debug\Hive.csproj.GenerateResource.Cache

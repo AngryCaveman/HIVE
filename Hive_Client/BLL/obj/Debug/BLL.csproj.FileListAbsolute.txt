@@ -1,0 +1,14 @@
+D:\HIVE\Hive\BLL\bin\Debug\BLL.dll
+D:\HIVE\Hive\BLL\bin\Debug\BLL.pdb
+D:\HIVE\Hive\BLL\bin\Debug\Dal.dll
+D:\HIVE\Hive\BLL\bin\Debug\Model.dll
+D:\HIVE\Hive\BLL\bin\Debug\DataBase.dll
+D:\HIVE\Hive\BLL\bin\Debug\Dal.pdb
+D:\HIVE\Hive\BLL\bin\Debug\Model.pdb
+D:\HIVE\Hive\BLL\bin\Debug\DataBase.pdb
+D:\HIVE\Hive\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\HIVE\Hive\BLL\obj\Debug\BLL.dll
+D:\HIVE\Hive\BLL\obj\Debug\BLL.pdb
+D:\HIVE\Hive\BLL\bin\Debug\MySql.Data.dll
+D:\HIVE\Hive\BLL\bin\Debug\Google.Protobuf.dll
+D:\HIVE\Hive\BLL\bin\Debug\MySql.Data.xml

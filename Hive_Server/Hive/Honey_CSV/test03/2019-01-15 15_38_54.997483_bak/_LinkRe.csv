@@ -1,0 +1,4 @@
+MissionName,Url,AddTime,Statu
+test03,https://www.worldscientific.com/action/showPublications,2019-01-15 15:38:33,success
+test03,https://www.worldscientific.com/worldscibooks/10.1142/10051,2019-01-15 15:38:48,failure
+test03,https://www.worldscientific.com/worldscibooks/10.1142/5829?cookieSet=1,2019-01-15 15:38:54,failure

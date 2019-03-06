@@ -1,0 +1,8 @@
+D:\HIVE\Hive\DataBase\bin\Debug\DataBase.dll
+D:\HIVE\Hive\DataBase\bin\Debug\DataBase.pdb
+D:\HIVE\Hive\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+D:\HIVE\Hive\DataBase\obj\Debug\DataBase.dll
+D:\HIVE\Hive\DataBase\obj\Debug\DataBase.pdb
+D:\HIVE\Hive\DataBase\bin\Debug\MySql.Data.dll
+D:\HIVE\Hive\DataBase\bin\Debug\Google.Protobuf.dll
+D:\HIVE\Hive\DataBase\bin\Debug\MySql.Data.xml

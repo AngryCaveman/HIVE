@@ -1,0 +1,5 @@
+D:\HIVE\Hive\Model\bin\Debug\Model.dll
+D:\HIVE\Hive\Model\bin\Debug\Model.pdb
+D:\HIVE\Hive\Model\obj\Debug\Model.dll
+D:\HIVE\Hive\Model\obj\Debug\Model.pdb
+D:\HIVE\Hive\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
