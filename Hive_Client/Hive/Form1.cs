@@ -594,8 +594,14 @@ namespace Hive
 
 
 
-        #endregion
 
-        
+        #endregion
+        #region======顶部菜单======
+        private void 修改中间组件配置ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SqlForm SF = new SqlForm();
+            DialogResult dr = SF.ShowDialog();
+        }
+        #endregion
     }
 }

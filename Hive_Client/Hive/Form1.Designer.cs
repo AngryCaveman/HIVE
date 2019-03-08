@@ -43,11 +43,13 @@
             this.查看信息ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.设置优先ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.停止任务ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.重启任务ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.菜单ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.修改中间组件配置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -62,7 +64,6 @@
             this.btn_Details = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.重启任务ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.groupBox1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -126,50 +127,57 @@
             this.停止任务ToolStripMenuItem,
             this.重启任务ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 180);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(125, 158);
             this.contextMenuStrip1.Opened += new System.EventHandler(this.contextMenuStrip1_Opened);
             // 
             // 添加任务ToolStripMenuItem
             // 
             this.添加任务ToolStripMenuItem.Name = "添加任务ToolStripMenuItem";
-            this.添加任务ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.添加任务ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.添加任务ToolStripMenuItem.Text = "添加任务";
             this.添加任务ToolStripMenuItem.Click += new System.EventHandler(this.添加任务ToolStripMenuItem_Click);
             // 
             // 启动任务ToolStripMenuItem
             // 
             this.启动任务ToolStripMenuItem.Name = "启动任务ToolStripMenuItem";
-            this.启动任务ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.启动任务ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.启动任务ToolStripMenuItem.Text = "启动任务";
             this.启动任务ToolStripMenuItem.Click += new System.EventHandler(this.启动任务ToolStripMenuItem_Click);
             // 
             // 删除任务ToolStripMenuItem
             // 
             this.删除任务ToolStripMenuItem.Name = "删除任务ToolStripMenuItem";
-            this.删除任务ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.删除任务ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.删除任务ToolStripMenuItem.Text = "删除任务";
             this.删除任务ToolStripMenuItem.Click += new System.EventHandler(this.删除任务ToolStripMenuItem_Click);
             // 
             // 查看信息ToolStripMenuItem
             // 
             this.查看信息ToolStripMenuItem.Name = "查看信息ToolStripMenuItem";
-            this.查看信息ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.查看信息ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.查看信息ToolStripMenuItem.Text = "查看信息";
             this.查看信息ToolStripMenuItem.Click += new System.EventHandler(this.查看信息ToolStripMenuItem_Click);
             // 
             // 设置优先ToolStripMenuItem
             // 
             this.设置优先ToolStripMenuItem.Name = "设置优先ToolStripMenuItem";
-            this.设置优先ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.设置优先ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.设置优先ToolStripMenuItem.Text = "设置优先";
             this.设置优先ToolStripMenuItem.Click += new System.EventHandler(this.设置优先ToolStripMenuItem_Click);
             // 
             // 停止任务ToolStripMenuItem
             // 
             this.停止任务ToolStripMenuItem.Name = "停止任务ToolStripMenuItem";
-            this.停止任务ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.停止任务ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.停止任务ToolStripMenuItem.Text = "停止任务";
             this.停止任务ToolStripMenuItem.Click += new System.EventHandler(this.停止任务ToolStripMenuItem_Click);
+            // 
+            // 重启任务ToolStripMenuItem
+            // 
+            this.重启任务ToolStripMenuItem.Name = "重启任务ToolStripMenuItem";
+            this.重启任务ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.重启任务ToolStripMenuItem.Text = "重启任务";
+            this.重启任务ToolStripMenuItem.Click += new System.EventHandler(this.重启任务ToolStripMenuItem_Click);
             // 
             // imageList1
             // 
@@ -210,9 +218,18 @@
             // 
             // 菜单ToolStripMenuItem
             // 
+            this.菜单ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.修改中间组件配置ToolStripMenuItem});
             this.菜单ToolStripMenuItem.Name = "菜单ToolStripMenuItem";
             this.菜单ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.菜单ToolStripMenuItem.Text = "菜单";
+            // 
+            // 修改中间组件配置ToolStripMenuItem
+            // 
+            this.修改中间组件配置ToolStripMenuItem.Name = "修改中间组件配置ToolStripMenuItem";
+            this.修改中间组件配置ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.修改中间组件配置ToolStripMenuItem.Text = "修改中间组件配置";
+            this.修改中间组件配置ToolStripMenuItem.Click += new System.EventHandler(this.修改中间组件配置ToolStripMenuItem_Click);
             // 
             // 帮助ToolStripMenuItem
             // 
@@ -324,13 +341,6 @@
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(131, 17);
             this.toolStripStatusLabel1.Text = "toolStripStatusLabel1";
             // 
-            // 重启任务ToolStripMenuItem
-            // 
-            this.重启任务ToolStripMenuItem.Name = "重启任务ToolStripMenuItem";
-            this.重启任务ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.重启任务ToolStripMenuItem.Text = "重启任务";
-            this.重启任务ToolStripMenuItem.Click += new System.EventHandler(this.重启任务ToolStripMenuItem_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -391,6 +401,7 @@
         private System.Windows.Forms.ToolStripMenuItem 停止任务ToolStripMenuItem;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripMenuItem 重启任务ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 修改中间组件配置ToolStripMenuItem;
     }
 }
 

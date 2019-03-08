@@ -1,4 +1,4 @@
-#coding=utf-8
+﻿#coding=utf-8
 import time
 import os
 import datetime
@@ -23,7 +23,7 @@ def Monitor():
             for pinfo in processinfo:
                 ProIDs.append(get_pid(pinfo))
         elif len(processinfo)==0:
-                os.system('python3 Server.py')
+                os.system('python3 ./Server.py')
         time.sleep(10)
 
 

@@ -20,6 +20,8 @@ namespace Hive
 
         private void btn_SqlSave_Click(object sender, EventArgs e)
         {
+            string SqlStr = MakeSqlStr();
+
             //获取Configuration对象
             Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
             //写入<add>元素的Value
@@ -28,12 +30,17 @@ namespace Hive
             config.AppSettings.Settings["Database"].Value = txt_DBName.Text;
             config.AppSettings.Settings["User"].Value = txt_SqlUsr.Text;
             config.AppSettings.Settings["Password"].Value = txt_SqlPwd.Text;
-            config.AppSettings.Settings["SqlStr"].Value = MakeSqlStr();
+            config.AppSettings.Settings["SqlStr"].Value = SqlStr;
             config.AppSettings.Settings["SqlType"].Value = comb_SqlType.SelectedItem.ToString();
+            //修改connectstring
+            string csName = "MySqlStr";
+            ConnectionStringsSection csSection = config.ConnectionStrings;
+            csSection.ConnectionStrings[csName].ConnectionString = SqlStr;
             //一定要记得保存，写不带参数的config.Save()也可以
             config.Save(ConfigurationSaveMode.Modified);
             //刷新，否则程序读取的还是之前的值（可能已装入内存）
             ConfigurationManager.RefreshSection("appSettings");
+            ConfigurationManager.RefreshSection("connectionStrings");
             this.DialogResult = DialogResult.OK;
         }
         private string MakeSqlStr()
